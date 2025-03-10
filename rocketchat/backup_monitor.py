@@ -102,8 +102,8 @@ class BackupMonitor:
 
 def main():
     # Configure these variables
-    BACKUP_FOLDER = '/home/michael/Документи/Projects/nextcloud-backup-analyzer/Backups/'
-    ROCKETCHAT_WEBHOOK = 'https://rocketintellect.dyndns-web.com/hooks/67cec9db079ecbef614f84d4/4Bwoztb8xMNAdPzE3MMLM5qAmuvGcGAEbm3qGH7DtEgoDbJT'
+    BACKUP_FOLDER = 'Projects/nextcloud-backup-analyzer/Backups/'
+    ROCKETCHAT_WEBHOOK = 'https://rocketdomain.dyndns-web.com/hooks/X'
 
     monitor = BackupMonitor(BACKUP_FOLDER, ROCKETCHAT_WEBHOOK)
     monitor.scan_backups()
